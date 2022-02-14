@@ -15,7 +15,6 @@ client.on('messageCreate', async msg => {
                 .then(messages => msg_size = messages.size)
                 .catch(console.error);
         }
-        clear();
     }
 });
 
